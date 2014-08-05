@@ -1,11 +1,14 @@
 Ext.define('SA.view.phone.Home', {
-    extend: 'Ext.panel.Panel',
-    xtype: 'phone_home',
+    extend: 'Ext.Container',
+    alias: 'widget.phone_home',
+    fullscreen: true,
     requires: [
     ],
-    config: {
-        items: [
-
+    config : {
+        layout : 'card',
+        items : [{
+            xtype : 'phone_login'
+        }
         ]
     }
 });

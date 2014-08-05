@@ -1,5 +1,5 @@
 Ext.define('SA.view.Home', {
-    extend: 'Ext.panel.Panel',
+    extend: 'Ext.Container',
     xtype: 'home',
     requires: [
     ],

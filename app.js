@@ -12,13 +12,13 @@
 
 Ext.application({
     name: 'SA',
-
+    profiles: ['Phone', 'Tablet'],
     requires: [
         'Ext.MessageBox'
     ],
 
     views: [
-        'Main'
+        'Home'
     ],
 
     icon: {
