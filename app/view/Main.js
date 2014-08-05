@@ -8,7 +8,7 @@ Ext.define('SA.view.Main', {
     config: {
         tabBarPosition: 'bottom',
         items: [
-
+ 
         ]
     }
 });
