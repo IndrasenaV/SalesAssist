@@ -1,6 +1,6 @@
 Ext.define('SA.view.phone.Login', {
     extend: 'Ext.form.Panel',
-    alias: 'widget.phone_home',
+    xtype: 'phone_login',
     config: {
         fullscreen: true,
         items: [

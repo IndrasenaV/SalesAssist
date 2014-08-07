@@ -2,7 +2,7 @@ Ext.define('SA.profile.Tablet',{
     extend : 'Ext.app.Profile',
     config : {
         views : ['Home'],
-        controllers : ['Navigation']
+        controllers : ['NavController']
     },
 
     launch : function(){

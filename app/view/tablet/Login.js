@@ -1,6 +1,6 @@
 Ext.define('SA.view.tablet.Login', {
     extend: 'Ext.form.Panel',
-    alias: 'widget.phone_home',
+    xtype: 'phone_home',
     config: {
         fullscreen: true,
         items: [
