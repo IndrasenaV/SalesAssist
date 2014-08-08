@@ -1,9 +1,9 @@
 /**
  * Created by ivv179 on 8/7/14.
  */
-Ext.define('FS.view.dashboard.QuoteList', {
+Ext.define('SA.view.tablet.leftnav.RecentlyViewedQuotes', {
     extend: 'Ext.dataview.List',
-    xtype: 'allQuotes',
+    xtype: 'tablet_recentlyViewedQuotes',
     config: {
         fullscreen: true,
         itemTpl: '<div style="font-weight: bold;font-size: 16px;text-align: left;color: dodgerblue"> Quote Name: {quoteName}'+
