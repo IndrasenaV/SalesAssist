@@ -1,14 +1,19 @@
 Ext.define('SA.view.tablet.Login', {
     extend: 'Ext.form.Panel',
-    xtype: 'phone_home',
+    xtype: 'tablet_login',
     config: {
         fullscreen: true,
         layout : {
             type : 'vbox',
-            align : 'stretch',
-            pack : 'center'
+           // pack : 'center',
+            align : 'center'
         },
-        items: [
+        defaults : {
+            width : 500
+        },
+        items: [{
+            height : 100
+            },
             {
                 html : '<span class="inset-login-header">Sales Assist Login</span>',
                 height : 100
@@ -47,22 +52,36 @@ Ext.define('SA.view.tablet.Login', {
                         msgTarget: 'side',
                         value : '9080'
                     }
-                ]
-            },
-            {
-                xtype: 'toolbar',
-                docked: 'bottom',
-                items: [
-                    {
-                        xtype: 'spacer'
-                    },
+                ],
+                buttons : [
                     {
                         xtype: 'button',
                         text: 'Login',
                         action : 'login'
                     }
-                ]
+                ],
+                buttonAlign : 'center'
+            },
+            {
+                xtype: 'button',
+                text: 'Login',
+                action : 'login'
             }
+//            ,
+//            {
+//                xtype: 'toolbar',
+//                docked: 'bottom',
+//                items: [
+//                    {
+//                        xtype: 'spacer'
+//                    },
+//                    {
+//                        xtype: 'button',
+//                        text: 'Login',
+//                        action : 'login'
+//                    }
+//                ]
+//            }
         ]
     }
 });

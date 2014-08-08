@@ -10,6 +10,7 @@ Ext.define('SA.profile.Phone',{
     },
 
     isActive: function() {
-        return Ext.os.is('Phone');
+       // Comment for now return Ext.os.is('Phone');
+        return false; // Change to true for phone development
     }
 })

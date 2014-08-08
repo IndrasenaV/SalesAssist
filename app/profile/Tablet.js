@@ -9,6 +9,7 @@ Ext.define('SA.profile.Tablet',{
         Ext.create('SA.view.tablet.Home')
     },
     isActive: function() {
-        return Ext.os.is('Tablet');
+       // return Ext.os.is('Tablet');
+        return true; // Always get this profile for tablet development
     }
 })

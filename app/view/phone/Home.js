@@ -8,7 +8,7 @@ Ext.define('SA.view.phone.Home', {
     config : {
         layout : 'card',
         fullscreen : true,
-        activeItem : 1,
+        activeItem : 0,
         width : '100%',
         height : '100%',
         items : [{

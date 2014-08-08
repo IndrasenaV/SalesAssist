@@ -18,6 +18,6 @@ Ext.define('SA.controller.tablet.LoginController',{
         this.login(rec.username,rec.password);
     },
     loginSuccess : function(){
-        alert('Success');
+        this.getLoginView().fireEvent('loginSuccess');
     }
 });
