@@ -5,7 +5,68 @@
     results : [{
         id : 'quote001',
         name : 'Mac OS X ',
-        customerEmail : 'test00001@yy.com'
-    }],
+        customerEmail : 'test00001@yy.com',
+        status : 'Pending',
+        createdDate : 1407455828697
+    },
+        {
+            id : 'quote001',
+            name : 'Mac OS X ',
+            customerEmail : 'test00002@yy.com',
+            status : 'Pending',
+            createdDate :1407455828697
+        },
+        {
+            id : 'quote002',
+            name : 'Mac OS X ',
+            customerEmail : 'test00003@yy.com',
+            status : 'Approved',
+            createdDate :1407455828697
+        },{
+            id : 'quote003',
+            name : 'Mac OS X ',
+            customerEmail : 'test00004@yy.com',
+            status : 'Closed',
+            createdDate :1407455828697
+        },
+        {
+            id : 'quote004',
+            name : 'Mac OS X ',
+            customerEmail : 'test00005@yy.com',
+            status : 'New',
+            createdDate :1407455828697
+        },
+        {
+            id : 'quote005',
+            name : 'Mac OS X ',
+            customerEmail : 'test00006@yy.com',
+            status : 'New',
+            createdDate :1407455828697
+        },
+        {
+            id : 'quote006',
+            name : 'Mac OS X ',
+            customerEmail : 'test00007@yy.com',
+            status : 'New',
+            createdDate :1407455828697
+        },{
+            id : 'quote007',
+            name : 'Mac OS X ',
+            customerEmail : 'test00008@yy.com',
+            status : 'New',
+            createdDate :1407455828697
+        },{
+            id : 'quote009',
+            name : 'Mac OS X ',
+            customerEmail : 'test00009@yy.com',
+            status : 'New',
+            createdDate :1407455828697
+        },{
+            id : 'quote010',
+            name : 'Mac OS X ',
+            customerEmail : 'test00010@yy.com',
+            status : 'New',
+            createdDate :1407455828697
+        }],
     total : 10
 }

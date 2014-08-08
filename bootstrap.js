@@ -46,6 +46,7 @@ Ext.Loader.addClassPathMappings({
   "Ext.device.sqlite.SQLResultSetRowList": "touch/src/device/sqlite/Sencha.js",
   "Ext.device.sqlite.SQLTransaction": "touch/src/device/sqlite/Sencha.js",
   "Ext.draw.engine.SvgContext.Gradient": "touch/src/draw/engine/SvgContext.js",
+  "FS.view.dashboard.QuoteList": "app/view/tablet/leftnav/RecentlyViewedQuotes.js",
   "SA": "app"
 });
 Ext.ClassManager.addNameAlternateMappings({
@@ -782,14 +783,19 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
+  "FS.view.dashboard.QuoteList": [],
   "SA.controller.BaseNavController": [],
-  "SA.controller.phone.Login": [],
+  "SA.controller.LoginController": [],
+  "SA.controller.phone.LoginController": [],
   "SA.controller.phone.NavController": [],
-  "SA.controller.tablet.Login": [],
+  "SA.controller.tablet.LeftNavController": [],
+  "SA.controller.tablet.LoginController": [],
   "SA.controller.tablet.NavController": [],
   "SA.model.LoginUser": [],
+  "SA.model.QuoteSummary": [],
   "SA.profile.Phone": [],
   "SA.profile.Tablet": [],
+  "SA.util.Constant": [],
   "SA.view.Home": [],
   "SA.view.phone.Home": [],
   "SA.view.phone.Login": [],
@@ -1742,14 +1748,21 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "FS.view.dashboard.QuoteList": [
+    "widget.allQuotes"
+  ],
   "SA.controller.BaseNavController": [],
-  "SA.controller.phone.Login": [],
+  "SA.controller.LoginController": [],
+  "SA.controller.phone.LoginController": [],
   "SA.controller.phone.NavController": [],
-  "SA.controller.tablet.Login": [],
+  "SA.controller.tablet.LeftNavController": [],
+  "SA.controller.tablet.LoginController": [],
   "SA.controller.tablet.NavController": [],
   "SA.model.LoginUser": [],
+  "SA.model.QuoteSummary": [],
   "SA.profile.Phone": [],
   "SA.profile.Tablet": [],
+  "SA.util.Constant": [],
   "SA.view.Home": [
     "widget.home"
   ],

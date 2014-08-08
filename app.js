@@ -14,7 +14,8 @@ Ext.application({
     name: 'SA',
     profiles: ['Phone', 'Tablet'],
     requires: [
-        'Ext.MessageBox'
+        'Ext.MessageBox',
+        'SA.util.Constant'
     ],
 
     views: [

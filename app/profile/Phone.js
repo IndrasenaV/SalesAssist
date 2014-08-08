@@ -2,7 +2,7 @@ Ext.define('SA.profile.Phone',{
     extend : 'Ext.app.Profile',
     config : {
         views : ['Home'],
-        controllers : ['NavController','Login']
+        controllers : ['NavController','LoginController']
     },
 
     launch : function(){
