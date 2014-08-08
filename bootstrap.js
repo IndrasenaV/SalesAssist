@@ -645,6 +645,17 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.layout.wrapper.BoxDock": [],
   "Ext.layout.wrapper.Dock": [],
   "Ext.layout.wrapper.Inner": [],
+  "Ext.log.Base": [],
+  "Ext.log.Logger": [],
+  "Ext.log.filter.Filter": [],
+  "Ext.log.filter.Priority": [],
+  "Ext.log.formatter.Default": [],
+  "Ext.log.formatter.Formatter": [],
+  "Ext.log.formatter.Identity": [],
+  "Ext.log.writer.Console": [],
+  "Ext.log.writer.DocumentTitle": [],
+  "Ext.log.writer.Remote": [],
+  "Ext.log.writer.Writer": [],
   "Ext.mixin.Bindable": [],
   "Ext.mixin.Filterable": [],
   "Ext.mixin.Mixin": [],
@@ -771,7 +782,19 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
-  "SA.view.Main": []
+  "SA.controller.BaseNavController": [],
+  "SA.controller.phone.Login": [],
+  "SA.controller.phone.NavController": [],
+  "SA.controller.tablet.Login": [],
+  "SA.controller.tablet.NavController": [],
+  "SA.model.LoginUser": [],
+  "SA.profile.Phone": [],
+  "SA.profile.Tablet": [],
+  "SA.view.Home": [],
+  "SA.view.phone.Home": [],
+  "SA.view.phone.Login": [],
+  "SA.view.tablet.Home": [],
+  "SA.view.tablet.Login": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractComponent": [],
@@ -1568,6 +1591,17 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.layout.wrapper.BoxDock": [],
   "Ext.layout.wrapper.Dock": [],
   "Ext.layout.wrapper.Inner": [],
+  "Ext.log.Base": [],
+  "Ext.log.Logger": [],
+  "Ext.log.filter.Filter": [],
+  "Ext.log.filter.Priority": [],
+  "Ext.log.formatter.Default": [],
+  "Ext.log.formatter.Formatter": [],
+  "Ext.log.formatter.Identity": [],
+  "Ext.log.writer.Console": [],
+  "Ext.log.writer.DocumentTitle": [],
+  "Ext.log.writer.Remote": [],
+  "Ext.log.writer.Writer": [],
   "Ext.mixin.Bindable": [],
   "Ext.mixin.Filterable": [],
   "Ext.mixin.Mixin": [],
@@ -1708,8 +1742,28 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
-  "SA.view.Main": [
-    "widget.main"
+  "SA.controller.BaseNavController": [],
+  "SA.controller.phone.Login": [],
+  "SA.controller.phone.NavController": [],
+  "SA.controller.tablet.Login": [],
+  "SA.controller.tablet.NavController": [],
+  "SA.model.LoginUser": [],
+  "SA.profile.Phone": [],
+  "SA.profile.Tablet": [],
+  "SA.view.Home": [
+    "widget.home"
+  ],
+  "SA.view.phone.Home": [
+    "widget.phone_home"
+  ],
+  "SA.view.phone.Login": [
+    "widget.phone_login"
+  ],
+  "SA.view.tablet.Home": [
+    "widget.tablet_home"
+  ],
+  "SA.view.tablet.Login": [
+    "widget.phone_home"
   ]
 });
 

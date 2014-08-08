@@ -12,13 +12,13 @@
 
 Ext.application({
     name: 'SA',
-
+    profiles: ['Phone', 'Tablet'],
     requires: [
         'Ext.MessageBox'
     ],
 
     views: [
-        'Main'
+        'Home'
     ],
 
     icon: {
@@ -44,7 +44,7 @@ Ext.application({
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('SA.view.Main'));
+        //Ext.Viewport.add(Ext.create('SA.view.Main'));
     },
 
     onUpdated: function() {
