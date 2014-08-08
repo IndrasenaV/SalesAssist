@@ -1,0 +1,1 @@
+var AJAX_URL = 'mock' // mock for mock data, ajax for server side data

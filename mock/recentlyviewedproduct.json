@@ -1,0 +1,11 @@
+{
+    rc : true,
+    generationTime : 1407455828697,
+    offset : 0,
+    results : [{
+        name : 'First Product'
+    },{
+        name : 'Second Product'
+    }],
+    total : 10
+}

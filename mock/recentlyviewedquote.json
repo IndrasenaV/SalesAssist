@@ -1,0 +1,11 @@
+{
+    rc : true,
+    generationTime : 1407455828697,
+    offset : 0,
+    results : [{
+        id : 'quote001',
+        name : 'Mac OS X ',
+        customerEmail : 'test00001@yy.com'
+    }],
+    total : 10
+}

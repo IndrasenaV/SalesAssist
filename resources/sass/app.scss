@@ -1,10 +1,41 @@
 // The following two lines import the default Sencha Touch theme. If you are building
 // a new theme, remove them and the add your own CSS on top of the base CSS (which
 // is already included in your app.json file).
+$body-bg-color: #000;
+
+$base-color: #EDF3F3;
+$base-gradient: 'matte';
+$active-color: #B2DF1E;
+
+$tabs-dark: $base-color;
+$tabs-light: #555;
+
+$tabs-bottom-radius: .4em;
+$tabs-bottom-gradient: 'bevel';
+$tabs-bar-gradient: 'matte';
+$tabs-bottom-active-gradient: 'recessed';
+
+$form-field-height : 1.5em;
+$toolbar-gradient: 'glossy';
+
 @import 'sencha-touch/default';
 @import 'sencha-touch/default/all';
 
 // Custom code goes here..
+
+.inset-login-header {
+  /* Shadows are visible under slightly transparent text color */
+  padding-bottom : 100px;
+  padding-left:20px;
+  font-size : 2em;
+  font-family: Comic Sans;
+  text-align: center;
+  color: rgba(10,60,150, 0.8);
+  text-shadow: 1px 4px 6px #808080, 0 0 0 #000, 1px 4px 6px #808080;
+}
+/* Don't show shadows when selecting text */
+::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
+::selection { background: #5af; color: #fff; text-shadow: none; }
 
 // Examples of using the icon mixin:
 // @include icon('user');

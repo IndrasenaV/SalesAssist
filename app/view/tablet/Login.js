@@ -3,14 +3,15 @@ Ext.define('SA.view.tablet.Login', {
     xtype: 'phone_home',
     config: {
         fullscreen: true,
+        layout : {
+            type : 'vbox',
+            align : 'stretch',
+            pack : 'center'
+        },
         items: [
             {
-                xtype: 'toolbar',
-                title: 'Login',
-                docked: 'top',
-                items: [
-                    {xtype: 'spacer'}
-                ]
+                html : '<span class="inset-login-header">Sales Assist Login</span>',
+                height : 100
             },
             {
                 xtype: 'fieldset',

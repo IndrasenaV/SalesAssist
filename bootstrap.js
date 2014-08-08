@@ -1757,7 +1757,7 @@ Ext.ClassManager.addNameAliasMappings({
     "widget.phone_home"
   ],
   "SA.view.phone.Login": [
-    "widget.phone_home"
+    "widget.phone_login"
   ],
   "SA.view.tablet.Home": [
     "widget.tablet_home"
