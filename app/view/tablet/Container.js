@@ -20,11 +20,11 @@ Ext.define('SA.view.tablet.Container', {
         height : '100%',
         items : [{
             xtype : 'tablet_menu',
-            flex : 1
+            width : 300
         },
             {
                 xtype : 'tablet_work',
-                flex : 3
+                flex : 1
             }
         ]
     }

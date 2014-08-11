@@ -1,5 +1,5 @@
 Ext.define('SA.view.tablet.MenuContainer', {
-    extend: 'Ext.Container',
+    extend: 'Ext.TabPanel',
     xtype: 'tablet_menu',
     requires: [
         'SA.view.tablet.leftnav.RecentlyViewedCustomers',
@@ -7,9 +7,6 @@ Ext.define('SA.view.tablet.MenuContainer', {
         'SA.view.tablet.leftnav.RecentlyViewedQuotes'
     ],
     config: {
-        layout: 'card',
-        activeItem: 0,
-        height: '100%',
         items: [
 //            {
 //                xtype: 'toolbar',
@@ -21,13 +18,16 @@ Ext.define('SA.view.tablet.MenuContainer', {
 //                ]
 //            },
             {
-                xtype: 'tablet_recentlyViewedQuotes'
+                xtype: 'tablet_recentlyViewedQuotes',
+                title : 'Quotes'
             },
             {
-                xtype: 'tablet_recentlyViewedProduct'
+                xtype: 'tablet_recentlyViewedProduct',
+                title : 'Products'
             },
             {
-                xtype: 'tablet_recentlyViewedCustomer'
+                xtype: 'tablet_recentlyViewedCustomer',
+                title : 'Customers'
             }
         ]
     }
