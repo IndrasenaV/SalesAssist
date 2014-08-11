@@ -1,0 +1,38 @@
+{
+    rc : true,
+    generationTime : 1407455828697,
+    offset : 0,
+    results : [{
+        id : 'customer001',
+        name : 'Mark Weber ',
+        email : 'markweber@yy.com',
+        phoneNo : '1234567890'
+    },
+        {
+            id : 'customer002',
+            name : 'Indra Vara ',
+            email : 'indravara@yy.com',
+            phoneNo : '1234567890'
+        },{
+            id : 'customer003',
+            name : 'Sen Bona ',
+            email : 'bonasen@yy.com',
+            phoneNo : '1234567890'
+        },{
+            id : 'customer004',
+            name : 'Simple Customer',
+            email : 'sss@yy.com',
+            phoneNo : '1234567890'
+        },{
+            id : 'customer005',
+            name : 'Customer with history ',
+            email : 'cwh@yy.com',
+            phoneNo : '1234567890'
+        },{
+            id : 'customer006',
+            name : 'Customer with no history ',
+            email : 'cwnh@yy.com',
+            phoneNo : '1234567890'
+        }],
+    total : 6
+}

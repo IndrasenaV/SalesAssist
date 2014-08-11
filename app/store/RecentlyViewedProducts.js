@@ -1,13 +1,13 @@
 /**
- * Created by ivv179 on 8/7/14.
+ * Created by ivv179 on 8/11/14.
  */
-Ext.define('SA.store.RecentlyViewedQuotes', {
+Ext.define('SA.store.RecentlyViewedProducts', {
     extend : 'Ext.data.Store',
     config : {
-        model: 'SA.model.QuoteSummary',
+        model: 'SA.model.ProductSummary',
         proxy: {
             type: 'ajax',
-            url : AJAX_URL+'recentlyviewedquote.json',
+            url : AJAX_URL+'recentlyviewedproduct.json',
             reader: {
                 type : 'json',
                 idProperty : 'id',
@@ -17,5 +17,4 @@ Ext.define('SA.store.RecentlyViewedQuotes', {
         },
         autoLoad: true
     }
-
 });

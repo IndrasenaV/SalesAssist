@@ -2,12 +2,76 @@
     rc : true,
     generationTime : 1407455828697,
     offset : 0,
-    results : [{
-        name : 'First Product',
-        shortDescription : 'Products with images',
-        imageUrl : ''
-    },{
-        name : 'Second Product'
-    }],
+    results : [
+        {
+            id : 1,
+            name : 'ipad 2',
+            shortDescription : 'Ipad 2',
+            price : 450,
+            currency : 'US'
+        },
+        {
+            id : 2,
+            name : 'ipad air',
+            shortDescription : 'Ipad air with retina display',
+            price : 499,
+            currency : 'US'
+        },
+        {
+            id : 3,
+            name : 'Macbook Air 11 inch',
+            shortDescription : 'Macbook air 11 inch with 2.4 ghz',
+            price : 799,
+            currency : 'US'
+        },
+        {
+            id : 4,
+            name : 'Macbook Air 13 inch',
+            shortDescription : 'Macbook air 11 inch with 2.4 ghz',
+            price : 999,
+            currency : 'US'
+        },
+        {
+            id : 5,
+            name : 'Macbook pro',
+            shortDescription : 'Macbook pro',
+            price : 1099,
+            currency : 'US'
+        },
+        {
+            id : 6,
+            name : 'Macbook pro with retina display 13 inch',
+            shortDescription : 'Macbook pro with retina display 13 inch',
+            price : 1299,
+            currency : 'US'
+        },
+        {
+            id : 7,
+            name : 'Macbook pro with retina display 15 inch',
+            shortDescription : 'Macbook pro with retina display 15 inch, 2.7GHz, 8GB Ram, NVidea video card.',
+            price : 1599,
+            currency : 'US'
+        },
+        {
+            id : 8,
+            name : 'Mac Server',
+            shortDescription : 'Most powerfull system with 16GB Ram, 2.4GHz, 512GB Flash drive',
+            price : 2999,
+            currency : 'US'
+        },
+        {
+            id : 9,
+            name : 'Mac mini',
+            shortDescription : '2.4 GHz, 256GB Flash drive, 4GB Ram',
+            price : 599,
+            currency : 'US'
+        },
+        {
+            id : 10,
+            name : 'Mac Display',
+            shortDescription : '27 inch display with thunder bolt support',
+            price : 799,
+            currency : 'US'
+        }],
     total : 10
 }

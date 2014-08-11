@@ -8,7 +8,8 @@ Ext.define('SA.model.QuoteSummary',{
             { name : 'name'},
             { name : 'status'},
             { name : 'customerEmail'},
-            { name : 'createdDate'}
+            { name : 'createdDate'},
+            { name : 'createdBy'}
         ]
     }
 })

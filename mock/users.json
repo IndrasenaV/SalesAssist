@@ -1,0 +1,13 @@
+{
+    rc : true,
+    generationTime : 1407455828697,
+    offset : 0,
+    results : [{
+        name : 'csr001',
+        email : 'csr001@gmail.com'
+    },{
+        name : 'csr002',
+        email : 'csr002@gmail.com'
+    }],
+    total : 2
+}

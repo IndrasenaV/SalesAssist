@@ -17,7 +17,10 @@ Ext.application({
     profiles: ['Phone', 'Tablet'],
     requires: [
         'Ext.MessageBox',
-        'SA.util.Constant'
+        'SA.util.Constant',
+        'Ext.form.FieldSet',
+        'Ext.field.Password',
+        'Ext.SegmentedButton'
     ],
 
     views: [

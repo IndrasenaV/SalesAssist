@@ -46,7 +46,6 @@ Ext.Loader.addClassPathMappings({
   "Ext.device.sqlite.SQLResultSetRowList": "touch/src/device/sqlite/Sencha.js",
   "Ext.device.sqlite.SQLTransaction": "touch/src/device/sqlite/Sencha.js",
   "Ext.draw.engine.SvgContext.Gradient": "touch/src/draw/engine/SvgContext.js",
-  "FS.view.dashboard.QuoteList": "app/view/tablet/leftnav/RecentlyViewedQuotes.js",
   "SA": "app"
 });
 Ext.ClassManager.addNameAlternateMappings({
@@ -783,7 +782,6 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
-  "FS.view.dashboard.QuoteList": [],
   "SA.controller.BaseNavController": [],
   "SA.controller.LoginController": [],
   "SA.controller.phone.LoginController": [],
@@ -791,7 +789,8 @@ Ext.ClassManager.addNameAlternateMappings({
   "SA.controller.tablet.LeftNavController": [],
   "SA.controller.tablet.LoginController": [],
   "SA.controller.tablet.NavController": [],
-  "SA.model.LoginUser": [],
+  "SA.model.CustomerSummary": [],
+  "SA.model.ProductSummary": [],
   "SA.model.QuoteSummary": [],
   "SA.profile.Phone": [],
   "SA.profile.Tablet": [],
@@ -799,8 +798,12 @@ Ext.ClassManager.addNameAlternateMappings({
   "SA.view.Home": [],
   "SA.view.phone.Home": [],
   "SA.view.phone.Login": [],
+  "SA.view.tablet.Container": [],
   "SA.view.tablet.Home": [],
-  "SA.view.tablet.Login": []
+  "SA.view.tablet.Login": [],
+  "SA.view.tablet.MenuContainer": [],
+  "SA.view.tablet.WorkContainer": [],
+  "SA.view.tablet.leftnav.RecentlyViewedQuotes": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractComponent": [],
@@ -1748,9 +1751,6 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
-  "FS.view.dashboard.QuoteList": [
-    "widget.allQuotes"
-  ],
   "SA.controller.BaseNavController": [],
   "SA.controller.LoginController": [],
   "SA.controller.phone.LoginController": [],
@@ -1758,7 +1758,8 @@ Ext.ClassManager.addNameAliasMappings({
   "SA.controller.tablet.LeftNavController": [],
   "SA.controller.tablet.LoginController": [],
   "SA.controller.tablet.NavController": [],
-  "SA.model.LoginUser": [],
+  "SA.model.CustomerSummary": [],
+  "SA.model.ProductSummary": [],
   "SA.model.QuoteSummary": [],
   "SA.profile.Phone": [],
   "SA.profile.Tablet": [],
@@ -1772,11 +1773,23 @@ Ext.ClassManager.addNameAliasMappings({
   "SA.view.phone.Login": [
     "widget.phone_login"
   ],
+  "SA.view.tablet.Container": [
+    "widget.tablet_container"
+  ],
   "SA.view.tablet.Home": [
     "widget.tablet_home"
   ],
   "SA.view.tablet.Login": [
-    "widget.phone_home"
+    "widget.tablet_login"
+  ],
+  "SA.view.tablet.MenuContainer": [
+    "widget.tablet_menu"
+  ],
+  "SA.view.tablet.WorkContainer": [
+    "widget.tablet_work"
+  ],
+  "SA.view.tablet.leftnav.RecentlyViewedQuotes": [
+    "widget.tablet_recentlyViewedProduct"
   ]
 });
 
