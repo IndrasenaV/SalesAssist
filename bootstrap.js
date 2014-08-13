@@ -788,12 +788,16 @@ Ext.ClassManager.addNameAlternateMappings({
   "SA.controller.phone.NavController": [],
   "SA.controller.tablet.LeftNavController": [],
   "SA.controller.tablet.LoginController": [],
+  "SA.controller.tablet.MenuController": [],
   "SA.controller.tablet.NavController": [],
   "SA.model.CustomerSummary": [],
   "SA.model.ProductSummary": [],
   "SA.model.QuoteSummary": [],
   "SA.profile.Phone": [],
   "SA.profile.Tablet": [],
+  "SA.store.RecentlyViewedCustomers": [],
+  "SA.store.RecentlyViewedProducts": [],
+  "SA.store.RecentlyViewedQuotes": [],
   "SA.util.Constant": [],
   "SA.view.Home": [],
   "SA.view.phone.Home": [],
@@ -803,6 +807,10 @@ Ext.ClassManager.addNameAlternateMappings({
   "SA.view.tablet.Login": [],
   "SA.view.tablet.MenuContainer": [],
   "SA.view.tablet.WorkContainer": [],
+  "SA.view.tablet.leftnav.MenuItem": [],
+  "SA.view.tablet.leftnav.RecentlyViewedCustomers": [],
+  "SA.view.tablet.leftnav.RecentlyViewedPanel": [],
+  "SA.view.tablet.leftnav.RecentlyViewedProducts": [],
   "SA.view.tablet.leftnav.RecentlyViewedQuotes": []
 });
 Ext.ClassManager.addNameAliasMappings({
@@ -1757,12 +1765,16 @@ Ext.ClassManager.addNameAliasMappings({
   "SA.controller.phone.NavController": [],
   "SA.controller.tablet.LeftNavController": [],
   "SA.controller.tablet.LoginController": [],
+  "SA.controller.tablet.MenuController": [],
   "SA.controller.tablet.NavController": [],
   "SA.model.CustomerSummary": [],
   "SA.model.ProductSummary": [],
   "SA.model.QuoteSummary": [],
   "SA.profile.Phone": [],
   "SA.profile.Tablet": [],
+  "SA.store.RecentlyViewedCustomers": [],
+  "SA.store.RecentlyViewedProducts": [],
+  "SA.store.RecentlyViewedQuotes": [],
   "SA.util.Constant": [],
   "SA.view.Home": [
     "widget.home"
@@ -1788,8 +1800,20 @@ Ext.ClassManager.addNameAliasMappings({
   "SA.view.tablet.WorkContainer": [
     "widget.tablet_work"
   ],
-  "SA.view.tablet.leftnav.RecentlyViewedQuotes": [
+  "SA.view.tablet.leftnav.MenuItem": [
+    "widget.tablet_menuitem"
+  ],
+  "SA.view.tablet.leftnav.RecentlyViewedCustomers": [
+    "widget.tablet_recentlyViewedCustomer"
+  ],
+  "SA.view.tablet.leftnav.RecentlyViewedPanel": [
+    "widget.tablet_recentlyviewed"
+  ],
+  "SA.view.tablet.leftnav.RecentlyViewedProducts": [
     "widget.tablet_recentlyViewedProduct"
+  ],
+  "SA.view.tablet.leftnav.RecentlyViewedQuotes": [
+    "widget.tablet_recentlyViewedQuotes"
   ]
 });
 

@@ -33,9 +33,16 @@ $toolbar-gradient: 'glossy';
   color: rgba(10,60,150, 0.8);
   text-shadow: 1px 4px 6px #808080, 0 0 0 #000, 1px 4px 6px #808080;
 }
+
 /* Don't show shadows when selecting text */
 ::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
 ::selection { background: #5af; color: #fff; text-shadow: none; }
+
+.recentlyvieweditem{
+
+
+}
+
 
 // Examples of using the icon mixin:
 // @include icon('user');
