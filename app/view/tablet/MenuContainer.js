@@ -10,23 +10,40 @@ Ext.define('SA.view.tablet.MenuContainer', {
             // pack : 'center',
             align: 'stretch'
         },
-        items: [
-            {
-                html: 'Home'
-            },
-            {
-                html: 'Quotes'
-            },
-            {
-                html: 'Opportunity'
-            },
-            {
-                html: 'Products'
+        cls : 'menucontainer',
+        items: [{
+            xtype : 'segmentedbutton',
+            allowMultiple: false,
+            layout:'vbox',
+            cls : 'menutoggle',
+            items: [
+                {
+                    text: 'Home',
+                    pressed : true,
+                    action : 'home'
+                },
+                {
+                    text : 'Quote',
+                    action : 'quote'
+                },
+                {
+                    text: 'Opportunity',
+                    action : 'opportunity'
+                },
+                {
+                    text: 'Products',
+                    action : 'product'
+                },
+                {
+                    text: 'Settings',
+                    action : 'setting'
+                }
+            ]
             },
             {
                 xtype: 'panel',
                 title: 'Recently Viewed Items',
-                height: '100%',
+                flex : 1,
                 items: [
                     {
                         xtype: 'tablet_recentlyviewed'

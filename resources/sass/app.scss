@@ -38,9 +38,22 @@ $toolbar-gradient: 'glossy';
 ::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
 ::selection { background: #5af; color: #fff; text-shadow: none; }
 
-.recentlyvieweditem{
+.menucontainer{
 
-
+  .x-segmentedbutton .x-button.x-first{
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius : 0px !important;
+  }
+  .x-segmentedbutton .x-button.x-last{
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+  }
+  .x-button-label{
+    line-height: 2em !important;
+  }
+  .x-tabbar.x-docked-top .x-tab .x-button-label{
+    line-height: 1.2em !important;
+  }
 }
 
 
