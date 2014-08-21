@@ -1,0 +1,14 @@
+{
+    status : true,
+    generationTime : 1407455828697,
+    offset : 0,
+    results : [{
+        name : 'Price',
+        items : ['0 - 100','101-200','201-500','501-1000','more than 1000']
+    },
+        {
+            name : 'brand',
+            items : ['Apple','Samsung','HTC','IBM','HP','Others']
+        }],
+    total : 2
+}

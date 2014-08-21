@@ -10,7 +10,7 @@ Development setup
 
 Sencha commands
 
-Sencha Cmd Version : 5.0
+Sencha Cmd Version : 5.0.1
 
 Sencha light weight web container
 

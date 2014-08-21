@@ -1,0 +1,88 @@
+{
+    rc : true,
+    generationTime : 1407455828697,
+    offset : 0,
+    results : [{
+        id : 'opportunity001',
+        name : 'opportunity with single product ',
+        customerEmail : 'test00001@yy.com',
+        status : 'Pending',
+        createdDate : 1407455828697
+    },
+        {
+            id : 'opportunity001',
+            name : 'Empty opportunity ',
+            customerEmail : 'test00002@yy.com',
+            status : 'Pending',
+            createdUser : 'csr001',
+            createdDate :1407455828697
+        },
+        {
+            id : 'opportunity002',
+            name : 'Multiple products',
+            customerEmail : 'test00003@yy.com',
+            status : 'Approved',
+            createdUser : 'csr001',
+            createdDate :1407455828697
+        },{
+            id : 'opportunity003',
+            name : 'opportunity with approval ',
+            customerEmail : 'test00004@yy.com',
+            status : 'Closed',
+            createdUser : 'csr001',
+            createdDate :1407455828697
+        },
+        {
+            id : 'opportunity004',
+            name : 'Pending approval ',
+            customerEmail : 'test00005@yy.com',
+            status : 'New',
+            createdUser : 'csr001',
+            createdDate :1407455828697
+        },
+        {
+            id : 'opportunity005',
+            name : 'Mac OS X ',
+            customerEmail : 'test00006@yy.com',
+            status : 'New',
+            createdUser : 'csr001',
+            createdDate :1407455828697
+        },
+        {
+            id : 'opportunity006',
+            name : 'Mac OS X ',
+            customerEmail : 'test00007@yy.com',
+            status : 'New',
+            createdUser : 'csr001',
+            createdDate :1407455828697
+        },{
+            id : 'opportunity007',
+            name : 'Mac OS X ',
+            customerEmail : 'test00008@yy.com',
+            status : 'New',
+            createdUser : 'csr001',
+            createdDate :1407455828697
+        },{
+            id : 'opportunity008',
+            name : 'Mac OS X ',
+            customerEmail : 'test00008@yy.com',
+            status : 'New',
+            createdUser : 'csr001',
+            createdDate :1407455828697
+        },{
+            id : 'opportunity009',
+            name : 'Mac OS X ',
+            customerEmail : 'test00009@yy.com',
+            status : 'New',
+            createdUser : 'csr001',
+            createdDate :1407455828697
+        },{
+            id : 'opportunity010',
+            name : 'Mac OS X ',
+            customerEmail : 'test00010@yy.com',
+            status : 'New',
+            createdUser : 'csr001',
+            createdDate :1407455828697
+        }],
+    total : 10
+}
