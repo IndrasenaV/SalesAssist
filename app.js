@@ -20,7 +20,9 @@ Ext.application({
         'SA.util.Constant',
         'Ext.form.FieldSet',
         'Ext.field.Password',
-        'Ext.SegmentedButton'
+        'Ext.SegmentedButton',
+        'SA.profile.Phone',
+        'SA.profile.Tablet'
     ],
 
     views: [
