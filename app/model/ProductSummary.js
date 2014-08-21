@@ -9,7 +9,7 @@ Ext.define('SA.model.ProductSummary',{
             { name : 'name'},
             { name : 'shortDescription'},
             { name : 'price'},
-            { name : 'currency'}
+            { name : 'currencyStr'}
         ]
     }
 })

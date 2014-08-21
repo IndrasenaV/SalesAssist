@@ -56,6 +56,25 @@ $toolbar-gradient: 'glossy';
   }
 }
 
+.recentlyviewpanel{
+  .item{
+     .title{
+        color: #000000;
+        font-size: 1em;
+     }
+     .description{
+        color: #808080;
+        font-size: 0.8em;
+     }
+     .viewbutton{
+        border-radius: 5px;
+        color: blue;
+        border-color: blue;
+        border: 1px;
+     }
+  }
+}
+
 
 // Examples of using the icon mixin:
 // @include icon('user');

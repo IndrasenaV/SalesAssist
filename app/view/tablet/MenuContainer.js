@@ -36,7 +36,7 @@ Ext.define('SA.view.tablet.MenuContainer', {
                 },
                 {
                     text: 'Settings',
-                    action : 'setting'
+                    action : 'settings'
                 }
             ]
             },

@@ -1,19 +1,18 @@
 /**
- * Created by ivv179 on 8/7/14.
+ * Created by ivv179 on 8/21/14.
  */
-Ext.define('SA.view.tablet.leftnav.RecentlyViewedQuotes', {
+Ext.define('SA.view.tablet.leftnav.RecentlyViewedOpportunity', {
     extend: 'Ext.dataview.List',
     cls : 'item',
-    requires : ['Ext.plugin.PullRefresh'],
-    xtype: 'tablet_recentlyViewedQuotes',
+    xtype: 'tablet_recentlyViewedOpportunity',
     config: {
-        store : 'RecentlyViewedQuotes',
         plugins: [
             {
                 xclass: 'Ext.plugin.PullRefresh',
-                pullText: 'Pull down for recently modified quotes'
+                pullText: 'Pull down for recently viewed opportunities'
             }
         ],
+        store : 'RecentlyViewedOpportunities',
         itemTpl: '<div class="title"> {name}'+ '</div>'+
             '<div class="description"> {status} , {customerEmail} </div> '
     }

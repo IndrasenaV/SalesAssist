@@ -3,11 +3,17 @@
  */
 Ext.define('SA.view.tablet.leftnav.RecentlyViewedCustomers', {
     extend: 'Ext.dataview.List',
+    cls : 'item',
     xtype: 'tablet_recentlyViewedCustomer',
     config: {
+        plugins: [
+            {
+                xclass: 'Ext.plugin.PullRefresh',
+                pullText: 'Pull down for recently viewed customers'
+            }
+        ],
         store : 'RecentlyViewedCustomers',
-        itemTpl: '<div style="font-weight: bold;font-size: 16px;text-align: left;color: dodgerblue"> Quote Name: {name}'+
-            ' </div><div  style="font-size: 14px;text-align: left;color: lightblue"> Customer Email: {customerEmail}</div> '+
-            '<div  style="font-size: 14px;text-align: left;color: lightblue">Quote Status: {status}</div>'
+        itemTpl:'<div class="title"> {name}'+ '</div>'+
+            '<div class="description"> {phoneNo} , {email} </div> '
     }
 });

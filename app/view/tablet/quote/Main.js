@@ -7,7 +7,7 @@ Ext.define('SA.view.tablet.quote.Main', {
     fullscreen: true,
     config : {
         items : [{
-            html : 'Product catalog page'
+            html : 'Quote Page'
         }
         ]
     }

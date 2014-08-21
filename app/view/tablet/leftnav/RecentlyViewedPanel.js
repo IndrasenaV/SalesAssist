@@ -7,10 +7,12 @@ Ext.define('SA.view.tablet.leftnav.RecentlyViewedPanel', {
     requires: [
         'SA.view.tablet.leftnav.RecentlyViewedCustomers',
         'SA.view.tablet.leftnav.RecentlyViewedProducts',
-        'SA.view.tablet.leftnav.RecentlyViewedQuotes'
+        'SA.view.tablet.leftnav.RecentlyViewedQuotes',
+        'SA.view.tablet.leftnav.RecentlyViewedOpportunity'
     ],
     config: {
         height : '100%',
+        cls : 'recentlyviewpanel',
         title : 'Recently Viewed Items',
         items: [
             {
@@ -18,12 +20,12 @@ Ext.define('SA.view.tablet.leftnav.RecentlyViewedPanel', {
                 title : 'Quotes'
             },
             {
-                xtype: 'tablet_recentlyViewedProduct',
-                title : 'Products'
+                xtype: 'tablet_recentlyViewedOpportunity',
+                title : 'Opportunity'
             },
             {
-                xtype: 'tablet_recentlyViewedCustomer',
-                title : 'Customers'
+                xtype: 'tablet_recentlyViewedProduct',
+                title : 'Products'
             }
         ]
     }

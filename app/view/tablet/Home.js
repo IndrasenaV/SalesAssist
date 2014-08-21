@@ -4,7 +4,6 @@
 Ext.define('SA.view.tablet.Home', {
     extend: 'Ext.Container',
     xtype: 'tablet_home',
-    fullscreen: true,
     requires: [
         'SA.view.tablet.Login',
         'SA.view.tablet.Container'

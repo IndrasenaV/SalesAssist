@@ -8,7 +8,8 @@ Ext.define('SA.view.tablet.WorkContainer', {
         'SA.view.tablet.product.Main',
         'SA.view.tablet.opportunity.Main',
         'SA.view.tablet.quote.Main',
-        'SA.view.tablet.dashboard.Main'
+        'SA.view.tablet.dashboard.Main',
+        'SA.view.tablet.settings.Main'
     ],
     config : {
         layout : 'card',
@@ -24,6 +25,9 @@ Ext.define('SA.view.tablet.WorkContainer', {
             },
             {
                 xtype : 'tablet_quote_main'
+            },
+            {
+                xtype : 'tablet_settings_main'
             }]
     }
 });
